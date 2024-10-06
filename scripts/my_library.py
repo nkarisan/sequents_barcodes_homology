@@ -15,7 +15,7 @@ import socket
 
 
 class MyLib:
-    save_dir = 'output_files/'
+    save_dir = '../output_files/'
     # save_dir = '/scratch/halstead/n/nkarisan/'
 
     try:
