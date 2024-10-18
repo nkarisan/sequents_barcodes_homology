@@ -12,7 +12,7 @@ from scipy import stats
 import matplotlib.pyplot as plt
 
 # from CRISPR.lib import Lib, Var
-from my_library import MyLib
+from scripts.my_library import MyLib
 
 class Poset:
 
@@ -34,7 +34,7 @@ class Poset:
 
     def create_poset(self, filename, visualize_poset=False):
         """
-           Creates the poset in a bottom-up manner.
+           The poset is created using a bottom-up approach.
         """
         self.poset_nx = nx.DiGraph() # A poset is a directed graph with edges pointing to top-level nodes.
         total_no = len(self.gamma) + len(self.delta)

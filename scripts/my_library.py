@@ -7,7 +7,6 @@ import pandas as pd
 import numpy as np
 import os
 import sys
-import csv
 import pickle
 from scipy import stats
 import h5py
@@ -15,8 +14,7 @@ import socket
 
 
 class MyLib:
-    save_dir = '../output_files/'
-    # save_dir = '/scratch/halstead/n/nkarisan/'
+    save_dir = '/Users/nkarisan/PycharmProjects/sequents_barcodes_homology/output_files/'
 
     try:
         h_name = socket.gethostname()
